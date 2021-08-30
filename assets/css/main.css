@@ -242,10 +242,6 @@ header
   color: var(--primary) !important;
 }
 
-.background-header .main-nav .nav li:last-child a:hover {
-  color: var(--primary) !important;
-}
-
 .background-header .main-nav .nav li:hover a {
   color: var(--secondary) !important;
 }
@@ -328,26 +324,6 @@ header
 
 .header-area .main-nav .nav li a {
   color: var(--primary);
-}
-
-.header-area .main-nav .nav li:last-child a {
-  display: inline-block;
-  font-size: 13px;
-  padding: 11px 17px;
-  background-color: var(--secondary);
-  color: var(--primary);
-  text-align: center;
-  font-weight: 400;
-  letter-spacing: 0px;
-  text-transform: uppercase;
-  transition: all 0.3s;
-  height: auto;
-  line-height: 20px;
-}
-
-.header-area .main-nav .nav li:last-child a:hover {
-  background-color: var(--third);
-  opacity: 1;
 }
 
 .header-area .main-nav .nav li:hover a,
